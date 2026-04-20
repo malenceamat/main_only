@@ -1,0 +1,52 @@
+.fleet
+# === Bitrix core ===
+/bitrix/*
+!/bitrix/.settings.php
+!/bitrix/php_interface/
+/bitrix/modules/
+/bitrix/components/
+/bitrix/templates/
+
+
+
+# === Uploads ===
+/upload/
+/files/
+
+# === Cache ===
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/html_pages/
+
+# === Logs ===
+/bitrix/php_interface/error.log
+*.log
+logs
+# === Temp ===
+/bitrix/tmp/
+/bitrix/backup/
+
+# === Sessions ===
+/bitrix/sessions/
+
+# === Environment ===
+.env
+.env.local
+
+# === IDE ===
+.idea/
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Composer (если используешь) ===
+/vendor/
+
+# === Node (если есть фронт) ===
+node_modules/
+dist/
+build/
+/bitrix/
