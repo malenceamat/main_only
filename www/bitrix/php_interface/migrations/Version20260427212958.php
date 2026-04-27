@@ -12,7 +12,18 @@ class Version20260427212958 extends Version
     {
         $helper = $this->getHelperManager();
 
-        //your code ...
+        $iblockId = $helper->Iblock()->saveIblock([
+            'NAME' => 'Парсер данные',
+            'CODE' => 'parser_data',
+            'IBLOCK_TYPE_ID' => 'content',
+            'SITE_ID' => ['s1'],
+        ]);
+
+        $helper->Iblock()->saveProperty($iblockId, [
+            'NAME' => 'Тип',
+            'CODE' => 'TYPE',
+            'PROPERTY_TYPE' => 'L',
+        ]);
     }
 
     public function down()
