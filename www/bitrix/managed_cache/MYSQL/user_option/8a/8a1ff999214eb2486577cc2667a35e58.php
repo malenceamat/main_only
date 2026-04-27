@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001776558028';
-$dateexpire = '001776561628';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{s:19:"landing_smn_landing";a:6:{s:14:"use_pin_preset";b:1;s:15:"deleted_presets";a:0:{}s:15:"default_presets";a:2:{s:2:"my";a:3:{s:4:"name";s:6:"Мои";s:7:"default";b:0;s:6:"fields";a:2:{s:13:"CREATED_BY_ID";i:1;s:18:"CREATED_BY_ID_name";s:11:"admin admin";}}s:6:"active";a:3:{s:4:"name";s:16:"Активные";s:7:"default";b:0;s:6:"fields";a:1:{s:6:"STATUS";s:6:"active";}}}s:7:"default";s:14:"default_filter";s:6:"filter";s:14:"default_filter";s:7:"filters";a:2:{s:2:"my";a:3:{s:4:"name";s:6:"Мои";s:7:"default";b:0;s:6:"fields";a:2:{s:13:"CREATED_BY_ID";i:1;s:18:"CREATED_BY_ID_name";s:11:"admin admin";}}s:6:"active";a:3:{s:4:"name";s:16:"Активные";s:7:"default";b:0;s:6:"fields";a:1:{s:6:"STATUS";s:6:"active";}}}}s:43:"tbl_iblock_508c75c8507a2ae5223dfd2faeb98122";a:6:{s:14:"use_pin_preset";b:1;s:15:"deleted_presets";a:0:{}s:15:"default_presets";a:0:{}s:7:"default";s:14:"default_filter";s:6:"filter";s:14:"default_filter";s:7:"filters";a:0:{}}s:51:"tbl_iblock_element_d1cb75b5aaf00401fd4a48cc75b13ebc";a:6:{s:14:"use_pin_preset";b:1;s:15:"deleted_presets";a:0:{}s:15:"default_presets";a:0:{}s:7:"default";s:14:"default_filter";s:6:"filter";s:14:"default_filter";s:7:"filters";a:0:{}}}}';
-return true;
-?>
