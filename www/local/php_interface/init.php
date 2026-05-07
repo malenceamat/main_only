@@ -1,7 +1,6 @@
 <?php
 use Bitrix\Main\EventManager;
 use Bitrix\Main\Loader;
-use MyCompany\CProp\UserTypeCProp;
 
 EventManager::getInstance()->addEventHandler(
     "iblock",
@@ -127,12 +126,3 @@ function clearOldLogsAgent()
 
     return "clearOldLogsAgent();";
 }
-Loader::includeModule("mycompany.cprop");
-AddEventHandler("main", "OnUserTypeBuildList", function () {
-    return [
-        "USER_TYPE_ID" => "my_cprop_uf",
-        "CLASS_NAME" => UserTypeCProp::class,
-        "DESCRIPTION" => "My complex UF property",
-        "BASE_TYPE" => "string",
-    ];
-});
