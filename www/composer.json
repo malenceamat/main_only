@@ -1,0 +1,20 @@
+{
+    "name": "root/bitrix",
+    "autoload": {
+        "psr-4": {
+            "Root\\Bitrix\\": "src/"
+        }
+    },
+    "require": {
+        "arhitector/yandex": "^2.3",
+        "php-http/message-factory": "^1.1",
+        "guzzlehttp/psr7": "^2.9",
+        "laminas/laminas-diactoros": "^2.26",
+        "php-http/guzzle7-adapter": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
